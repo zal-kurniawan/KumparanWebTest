@@ -6,7 +6,7 @@ This project contains user interface (UI) automation test scripts for the Kumpar
 
 This project is divided into several main directories for maintainability:
 
-*   **`object/`**: Stores all web page locators. Examples include `home.page.ts`, `login.page.ts`, `article.page.ts`, and `notFound.page.ts`.
+*   **`object/`**: Stores all web page locators. Examples include `home.page.ts`, `header.page.ts`, `login.page.ts`, `article.page.ts`, and `notFound.page.ts`.
 *   **`steps/`**: Contains classes that encapsulate user actions and assertion logic. Examples include functions like `changeToDarkMode`, `likeArticle`, and `setCredentials`.
 *   **`tests/task-B/`**: Contains the manual scenario test file (`kumparan_manual.spec.ts`) that strings together steps from the POM.
 *   **`tests/task-C/`**: Contains the automated test file designed and generated with the help of Playwright AI Agent (`kumparan_agent.spec.ts`).
